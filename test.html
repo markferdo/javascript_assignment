@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <button class="button">Click me</button>
+    <div id="parent">I am mark</div>
+
+    <SCRIPT>
+        let x = document.querySelector('button');
+        x.addEventListener('click', function () {
+        alert('Clicked ');
+        });
+
+        const answer = confirm('Question');
+        console.log(answer)
+        let parentElement =document.getElementById('parent');
+        let paragraphElement = document.createElement('p');
+        paragraphElement.textContent = 'This is a new paragraph';
+        parentElement.appendChild(paragraphElement)
+
+        function num(){
+            let num1 = Math.floor(Math.random()*5) + 1;
+            return num1;
+        }
+        document.write(num());
+
+        let 
+
+    </SCRIPT>
+</body>
+</html>
